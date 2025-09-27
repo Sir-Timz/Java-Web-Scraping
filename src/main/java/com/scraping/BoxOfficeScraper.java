@@ -6,7 +6,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class WebScraper {
+public class BoxOfficeScraper {
     public static void main(String[] args) throws IOException {
         String url = "https://www.boxofficemojo.com/date/?ref_=bo_nb_hm_secondarytab";
         Document doc = Jsoup.connect(url)
